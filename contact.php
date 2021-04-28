@@ -52,12 +52,12 @@
 
               <ul class="site-menu js-clone-nav mx-auto d-none d-lg-block">
                 <li class="active">
-                  <a href="index.html">Home</a>
+                  <a href="index.php">Home</a>
                 </li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="contact.html">Contact</a></li>
+                <li><a href="about.php">About</a></li>
+                <li><a href="contact.php">Contact</a></li>
                 <li><a href="manage.php">Manage Pass</a></li>
-                  <li><a href="bus_details.html">Bus Details</a></li>
+                  <li><a href="bus_details.php">Bus Details</a></li>
               </ul>
             </nav>
           </div>
@@ -77,7 +77,7 @@
 
             <div class="col-md-8" data-aos="fade-up" data-aos-delay="400">
               <h1 class="text-white font-weight-light">Get In Touch</h1>
-              <div><a href="index.html">Home</a> <span class="mx-2 text-white">&bullet;</span> <span class="text-white">Contact</span></div>
+              <div><a href="index.php">Home</a> <span class="mx-2 text-white">&bullet;</span> <span class="text-white">Contact</span></div>
               
             </div>
           </div>

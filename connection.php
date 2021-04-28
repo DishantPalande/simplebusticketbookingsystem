@@ -1,8 +1,9 @@
 <?php  
-     	define('DB_SERVER', 'localhost');
-		define('DB_USERNAME', 'root');
-		define('DB_PASSWORD', '');
-		define('DB_NAME', 'travel');
+     	define('DB_SERVER', ' remotemysql.com');
+	define('DB_USERNAME', 'KS7qDr6d3U');
+	define('DB_PASSWORD', 'x46IbSltx1');
+	define('DB_NAME', 'KS7qDr6d3U');
+
        	$conn = mysqli_connect(DB_SERVER, DB_USERNAME, DB_PASSWORD,DB_NAME);
 
 if($conn === false){

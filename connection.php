@@ -1,5 +1,5 @@
 <?php  
-     	define('DB_SERVER', ' remotemysql.com');
+     	define('DB_SERVER', 'remotemysql.com');
 	define('DB_USERNAME', 'KS7qDr6d3U');
 	define('DB_PASSWORD', 'x46IbSltx1');
 	define('DB_NAME', 'KS7qDr6d3U');

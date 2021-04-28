@@ -52,12 +52,12 @@
 
               <ul class="site-menu js-clone-nav mx-auto d-none d-lg-block">
                 <li class="active">
-                  <a href="index.html">Home</a>
+                  <a href="index.php">Home</a>
                 </li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="contact.html">Contact</a></li>
+                <li><a href="about.php">About</a></li>
+                <li><a href="contact.php">Contact</a></li>
                 <li><a href="manage.php">Manage Pass</a></li>
-                  <li><a href="bus_details.html">Bus Details</a></li>
+                  <li><a href="bus_details.php">Bus Details</a></li>
               </ul>
             </nav>
           </div>

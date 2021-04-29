@@ -68,7 +68,7 @@
         <div class="row align-items-center">
           
           <div class="col-6 col-xl-2">
-            <h1 class="mb-0"><a href="index.html" class="text-black h2 mb-0">Travelers</a></h1>
+            <h1 class="mb-0"><a href="index.php" class="text-black h2 mb-0">Travelers</a></h1>
           </div>
           <div class="col-10 col-md-8 d-none d-xl-block">
             <nav class="site-navigation position-relative text-right" role="navigation">
@@ -100,53 +100,53 @@
                 
               <p class="mb-0 font-weight-bold" style="float: left;">Id &nbsp &nbsp</p>
                 <p class="mb-4">
-                    <?php
-						echo $row['id'];
-					?>
+                	<?php
+			echo $row['id'];
+			?>
                 </p>
                 
                 <p class="mb-0 font-weight-bold" style="float: left;">Name &nbsp &nbsp</p>
                 <p class="mb-4">
-                    <?php
-						echo $row['name'];
-					?>
+                	<?php
+			echo $row['name'];
+			?>
                 </p>
 
               <p class="mb-0 font-weight-bold" style="float: left;">Mobile &nbsp &nbsp</p>
               <p class="mb-4">
-					<?php
-						echo $row['contact'];
-					?>
+			<?php
+			echo $row['contact'];
+			?>
                 </p>
 
               <p class="mb-0 font-weight-bold" style="float: left;">Email Address &nbsp &nbsp</p>
               <p class="mb-4">
-					<?php
-						echo $row['email'];
-					?>
+			<?php
+			echo $row['email'];
+			?>
                 </p>
                 
                 <p class="mb-0 font-weight-bold" style="float: left;">Valid Till &nbsp &nbsp</p>
               <p class="mb-4">
-					<?php
-						echo $row['date'];
-					?>
+			<?php
+			echo $row['date'];
+			?>
                 </p>
                 
                 <p class="mb-0 font-weight-bold" style="float: left;">From - To &nbsp &nbsp</p>
               <p class="mb-4">
                 GLA University - 
-				<?php
-						echo $row['dest'];
-					?>
+			<?php
+			echo $row['dest'];
+			?>
                 </p>
                 
                 
                 <p class="mb-0 font-weight-bold" style="float: left;">Amount Paid &nbsp &nbsp</p>
               <p class="mb-4">
-					<?php
-						echo $row['paid'];
-					?>
+			<?php
+			echo $row['paid'];
+			?>
                 </p>
 <button id="printPageButton" class="btn btn-primary py-1 px-5 text-white" onclick="window.print()">Print Pass</button>
             </div>

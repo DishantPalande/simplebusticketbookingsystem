@@ -237,8 +237,7 @@ span.price {
                 <div class="col-50">
                 <label for="expmonth">Exp Month</label>
             <input type="text" id="expmonth" name="expmonth" placeholder="MM" required>
-                </div>
-              </div>
+            
               <label for="cvv">CVV</label>
                 <input type="password" id="cvv" name="cvv" placeholder="***" required>
           </div>
